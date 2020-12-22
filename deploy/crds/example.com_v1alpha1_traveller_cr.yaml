@@ -1,0 +1,8 @@
+apiVersion: example.com/v1alpha1
+kind: Traveller
+metadata:
+  name: example-traveller
+spec:
+  # Add fields here
+  size: 3
+  image: paulbouwer/hello-kubernetes:1.8
